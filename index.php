@@ -87,7 +87,7 @@ echo "<br>";
         <ul>
             <?php foreach($jedisNamesAndAgeValues as $jedi => $age) : ?>
                 <?php if($age > 100) : ?>
-                    <li><?= $jedi . " is " . $age . " yo" ?></li>
+                    <li><?= $jedi . " is " . $age . " yo!" ?></li>
                 <?php endif ?>
             <?php endforeach ?>
         </ul>
